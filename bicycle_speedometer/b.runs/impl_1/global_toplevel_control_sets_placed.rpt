@@ -1,0 +1,126 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Feb 09 22:37:09 2017
+| Host         : lenovo1 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file global_toplevel_control_sets_placed.rpt
+| Design       : global_toplevel
+| Device       : xc7z010
+--------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    73 |
+| Minimum Number of register sites lost to control set restrictions |   158 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              81 |           34 |
+| No           | No                    | Yes                    |              74 |           41 |
+| No           | Yes                   | No                     |              78 |           38 |
+| Yes          | No                    | No                     |             106 |           37 |
+| Yes          | No                    | Yes                    |             309 |          116 |
+| Yes          | Yes                   | No                     |             306 |           92 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+-------------------------------------------------------------------------------------------+--------------------------------------------------------------+------------------+----------------+
+|         Clock Signal         |                                       Enable Signal                                       |                       Set/Reset Signal                       | Slice Load Count | Bel Load Count |
++------------------------------+-------------------------------------------------------------------------------------------+--------------------------------------------------------------+------------------+----------------+
+|  CLK125M_IBUF_BUFG           |                                                                                           |                                                              |                1 |              2 |
+| ~INST_CLK_DIVIDER_BIKE/clk_o |                                                                                           |                                                              |                2 |              2 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/iCH_counter_reg[0][0]             | RESET_KEY_IBUF                                               |                3 |              4 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO_TO_WB_MASTER/Temp_Addr[3]_i_1_n_0 | RESET_KEY_IBUF                                               |                1 |              4 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/state3[4]_i_1_n_0                                | RESET_KEY_IBUF                                               |                3 |              4 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/stateAfterTransmitt[3]_i_1_n_0                | RESET_KEY_IBUF                                               |                2 |              4 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/g0_b0_n_0                                     | RESET_KEY_IBUF                                               |                2 |              4 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/iSig_change_idx_reg[0][0]         | RESET_KEY_IBUF                                               |                1 |              4 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CALCUL_BLOCK/AVS_reg                                                      | STUDENTS_DESIGN/CALCUL_BLOCK/AVS_reg_0                       |                1 |              4 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/iMEM_OFFSET_o[4]_i_1_n_0                         | RESET_KEY_IBUF                                               |                1 |              5 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/iUPPER1_ASCII_reg[0][0]           | RESET_KEY_IBUF                                               |                2 |              6 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/iLOWER1000_ASCII_reg[0][0]        | RESET_KEY_IBUF                                               |                2 |              6 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/iLOWER100_ASCII_reg[0][0]         | RESET_KEY_IBUF                                               |                2 |              6 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/iLOWER10_ASCII_reg[0][0]          | RESET_KEY_IBUF                                               |                1 |              6 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/iUPPER10_ASCII_reg[0][0]          | RESET_KEY_IBUF                                               |                2 |              6 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/E[0]                              | RESET_KEY_IBUF                                               |                2 |              6 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CONTROL_BLOCK/DISP_LOWER/inst1_dual2bcd/dual_int_reg[8]_0                 | STUDENTS_DESIGN/CONTROL_BLOCK/DISP_LOWER/bcd_start           |                2 |              6 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/iLCD_IF_DATA_o[1]                                | RESET_KEY_IBUF                                               |                3 |              7 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/iMEM_ASCII_CODE_o[6]_i_1_n_0                     | RESET_KEY_IBUF                                               |                2 |              7 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/data_reg_L[6]_i_1_n_0                            | RESET_KEY_IBUF                                               |                3 |              7 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CONTROL_BLOCK/DISP_LOWER/inst1_dual2bcd/dual_int_reg[8]_0                 |                                                              |                4 |              7 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/iMEM_DATA_i[7]_i_1_n_0                           | RESET_KEY_IBUF                                               |                2 |              8 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/cmd_reg_H[7]_i_1_n_0                             | RESET_KEY_IBUF                                               |                3 |              8 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/lcd_cursor_px_x_reg[7]_i_1_n_0                   | RESET_KEY_IBUF                                               |                4 |              8 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO_TO_WB_MASTER/dout_reg[7][0]       |                                                              |                2 |              8 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO_TO_WB_MASTER/Temp_Data[7]_i_1_n_0 | RESET_KEY_IBUF                                               |                3 |              8 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/E[0]                              |                                                              |                3 |              8 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/iFIFO_WR_EN_reg[0]                | RESET_KEY_IBUF                                               |                2 |              8 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_SIGNAL_IF_INST/clk_div_th_reg[7]_i_1_n_0                          | RESET_KEY_IBUF                                               |                2 |              8 |
+|  INST_CLK_DIVIDER_BIKE/clk_o |                                                                                           | STUDENTS_DESIGN/CONTROL_BLOCK/DISP_LOWER/bcd_start           |                7 |              8 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CALCUL_BLOCK/MAX/7]_i_2_n_0                                               | STUDENTS_DESIGN/CALCUL_BLOCK/MAX/7]_i_1_n_0                  |                2 |              8 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CALCUL_BLOCK/INST_SPEED/KMH[7]_i_2_n_0                                    | STUDENTS_DESIGN/CALCUL_BLOCK/INST_SPEED/KMH[7]_i_1_n_0       |                2 |              8 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | PULSE_SHAPE_REED/REED2BIKE                                                                | STUDENTS_DESIGN/CALCUL_BLOCK/GEN_1S/SR[0]                    |                2 |              8 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CALCUL_BLOCK/GEN_1S/gen_1s                                                |                                                              |                3 |              8 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_MEM_CONTROL_INST/iMEM_DATA_o[7]_i_1_n_0                           | RESET_KEY_IBUF                                               |                2 |              8 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO_TO_WB_MASTER/readPTR_reg[3][0]    | RESET_KEY_IBUF                                               |                2 |              8 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/lcd_cursor_ch_y_reg[7]_i_1_n_0                   | RESET_KEY_IBUF                                               |                7 |              8 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/lcd_cursor_ch_x_reg[7]_i_1_n_0                   | RESET_KEY_IBUF                                               |                5 |              8 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd[7]_i_1_n_0                    |                                                              |                4 |              8 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_SIGNAL_IF_INST/reset_wait_count_reg[9]_i_1_n_0                    | RESET_KEY_IBUF                                               |                3 |             10 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_MEM_CONTROL_INST/DISPLAY_COPY_ADDR[9]_i_1_n_0                     | RESET_KEY_IBUF                                               |                3 |             10 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_MEM_CONTROL_INST/ASCII_LUT_ADDR[10]_i_1_n_0                       | RESET_KEY_IBUF                                               |                3 |             11 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/iwb_data_reg[0][0]                | RESET_KEY_IBUF                                               |                5 |             11 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_SIGNAL_IF_INST/iA0_i                                              | RESET_KEY_IBUF                                               |                5 |             11 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CALCUL_BLOCK/GEN_1S/AVS_reg[10]                                           | STUDENTS_DESIGN/CALCUL_BLOCK/GEN_1S/AVS_reg[0]               |                4 |             11 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CALCUL_BLOCK/AVERAGE_SPEED/DIVIDE/ans2_i_1_n_0                            |                                                              |                3 |             11 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CALCUL_BLOCK/INST_SPEED/DIVIDE_2/ans2_i_1__0_n_0                          |                                                              |                3 |             11 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/iWB_DATA_i[7]_i_1__0_n_0                         | RESET_KEY_IBUF                                               |                3 |             12 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/E[0]                                             | RESET_KEY_IBUF                                               |                3 |             12 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CALCUL_BLOCK/GEN_1S/gen_1s                                                | STUDENTS_DESIGN/CALCUL_BLOCK/TRIP_TIME/SR[0]                 |                4 |             13 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/display_string_reg[0][0][0]       | RESET_KEY_IBUF                                               |                6 |             13 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CONTROL_BLOCK/DISP_LOWER/inst1_dual2bcd/dual_int[13]_i_1_n_0              |                                                              |                3 |             13 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/LCD_MEM_CONTROL_INST/iMEM_RDY_o_i_1_n_0                               | RESET_KEY_IBUF                                               |                5 |             13 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CALCUL_BLOCK/TRIP_DISTANCE/DAY_M[0]_i_2_n_0                               | STUDENTS_DESIGN/CALCUL_BLOCK/TRIP_DISTANCE/DAY_M[0]_i_1_n_0  |                4 |             14 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/writePTR_delay_1[3]_i_1_n_0       | RESET_KEY_IBUF                                               |                4 |             14 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/iSig_change_reg_reg[0][0]         | RESET_KEY_IBUF                                               |                7 |             14 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CALCUL_BLOCK/THRESHOLD/TIM_DISPLAY_reg[13]                                | STUDENTS_DESIGN/CALCUL_BLOCK/THRESHOLD/TIM_DISPLAY_reg[0]    |               11 |             14 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CALCUL_BLOCK/E[0]                                                         | STUDENTS_DESIGN/CALCUL_BLOCK/SR[0]                           |                5 |             14 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/storage_done_01                   | RESET_KEY_IBUF                                               |                3 |             16 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CALCUL_BLOCK/TRIP_TIME/count_h[15]_i_2_n_0                                | STUDENTS_DESIGN/CALCUL_BLOCK/TRIP_TIME/count_h[15]_i_1_n_0   |                3 |             16 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CALCUL_BLOCK/TRIP_TIME/count_m[15]_i_2_n_0                                | STUDENTS_DESIGN/CALCUL_BLOCK/TRIP_TIME/count_m[15]_i_1_n_0   |                4 |             16 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CONTROL_BLOCK/DISP_LOWER/inst1_dual2bcd/bcd[15]_i_1_n_0                   |                                                              |                6 |             16 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/p_0_in2_out                       |                                                              |                2 |             16 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CONTROL_BLOCK/DISP_LOWER/inst1_dual2bcd/E[0]                              |                                                              |                6 |             16 |
+|  INST_CLK_DIVIDER_BIKE/clk_o |                                                                                           | STUDENTS_DESIGN/CALCUL_BLOCK/INST_SPEED/tim0                 |                6 |             18 |
+|  CLK125M_IBUF_BUFG           | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/display_string_reg[2][0][0]       | RESET_KEY_IBUF                                               |                9 |             20 |
+|  INST_CLK_DIVIDER_BIKE/clk_o |                                                                                           | RESET_KEY_IBUF                                               |               17 |             30 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CALCUL_BLOCK/TRIP_DISTANCE/DAY_CM[0]_i_2_n_0                              | STUDENTS_DESIGN/CALCUL_BLOCK/TRIP_DISTANCE/DAY_CM[0]_i_1_n_0 |                8 |             32 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CALCUL_BLOCK/GEN_1S/TIM_S0                                                | STUDENTS_DESIGN/CALCUL_BLOCK/THRESHOLD/TIM_S_reg[0]          |                9 |             36 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/sel                               | STUDENTS_DESIGN/CONTROL_BLOCK/DISP_LOWER/bcd_start           |               10 |             38 |
+|  INST_CLK_DIVIDER_BIKE/clk_o | STUDENTS_DESIGN/CONTROL_BLOCK/DISP_LOWER/inst1_dual2bcd/bcd_int_reg[14]_i_1_n_0           | STUDENTS_DESIGN/CONTROL_BLOCK/DISP_LOWER/bcd_start           |               14 |             44 |
+|  INST_CLK_DIVIDER_BIKE/clk_o |                                                                                           |                                                              |               31 |             77 |
+|  CLK125M_IBUF_BUFG           |                                                                                           | RESET_KEY_IBUF                                               |               49 |             96 |
++------------------------------+-------------------------------------------------------------------------------------------+--------------------------------------------------------------+------------------+----------------+
+
+

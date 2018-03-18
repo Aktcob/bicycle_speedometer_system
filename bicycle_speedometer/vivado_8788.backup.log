@@ -1,0 +1,590 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sun Feb 05 09:05:53 2017
+# Process ID: 5760
+# Log file: C:/Users/lenovo/Desktop/b/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/b\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/b/b.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 646.492 ; gain = 90.059
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279540088A
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+close_hw
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: global_toplevel
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:01:27 ; elapsed = 00:11:52 . Memory (MB): peak = 755.445 ; gain = 528.613
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'global_toplevel' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/global_toplevel.v:4]
+INFO: [Synth 8-638] synthesizing module 'FDRE' [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3016]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE' (1#1) [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3016]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized0' [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3016]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized0' (1#1) [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3016]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized1' [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3016]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized1' (1#1) [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3016]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized2' [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3016]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized2' (1#1) [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3016]
+INFO: [Synth 8-638] synthesizing module 'PULSE_SHAPE' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/pulse_shape.v:4]
+INFO: [Synth 8-256] done synthesizing module 'PULSE_SHAPE' (2#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/pulse_shape.v:4]
+INFO: [Synth 8-638] synthesizing module 'CLK_DIVIDER_BIKE' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/CLK_DIVIDER_BIKE.v:5]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (3#1) [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'CLK_DIVIDER_BIKE' (4#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/CLK_DIVIDER_BIKE.v:5]
+INFO: [Synth 8-638] synthesizing module 'KMH_TEST' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/kmh_test.v:5]
+INFO: [Synth 8-256] done synthesizing module 'KMH_TEST' (5#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/kmh_test.v:5]
+INFO: [Synth 8-638] synthesizing module 'LCD_CONTROLLER' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:35]
+INFO: [Synth 8-3491] module 'BICYCLE_LCD_MASTER' declared at 'C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:673' bound to instance 'BICYCLE_LCD_MASTER_INST' of component 'BICYCLE_LCD_MASTER' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'BICYCLE_LCD_MASTER' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:700]
+INFO: [Synth 8-3491] module 'CMD_FIFO_TO_WB_MASTER' declared at 'C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1287' bound to instance 'WB_CMD_FIFO_TO_WB_MASTER' of component 'CMD_FIFO_TO_WB_MASTER' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:958]
+INFO: [Synth 8-638] synthesizing module 'CMD_FIFO_TO_WB_MASTER' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1304]
+INFO: [Synth 8-256] done synthesizing module 'CMD_FIFO_TO_WB_MASTER' (6#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1304]
+INFO: [Synth 8-3491] module 'SMALL_FIFO_ZYBO' declared at 'C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:567' bound to instance 'WB_CMD_FIFO' of component 'SMALL_FIFO_ZYBO' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:972]
+INFO: [Synth 8-638] synthesizing module 'SMALL_FIFO_ZYBO' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:581]
+INFO: [Synth 8-256] done synthesizing module 'SMALL_FIFO_ZYBO' (7#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:581]
+INFO: [Synth 8-256] done synthesizing module 'BICYCLE_LCD_MASTER' (8#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:700]
+INFO: [Synth 8-3491] module 'LCD_CMD_DECODER' declared at 'C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1453' bound to instance 'LCD_CMD_DECODER_INST' of component 'LCD_CMD_DECODER' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:237]
+INFO: [Synth 8-638] synthesizing module 'LCD_CMD_DECODER' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1477]
+INFO: [Synth 8-256] done synthesizing module 'LCD_CMD_DECODER' (9#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1477]
+	Parameter CLK_DIV_COUNT_WIDTH bound to: 8 - type: integer 
+	Parameter RESET_WAIT_COUNT_WIDTH bound to: 10 - type: integer 
+	Parameter RESET_WAIT_COUNTER_END bound to: 1020 - type: integer 
+	Parameter RESET_WAIT_AFTER_COUNTER_END bound to: 150 - type: integer 
+INFO: [Synth 8-3491] module 'LCD_SIGNAL_IF' declared at 'C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2253' bound to instance 'LCD_SIGNAL_IF_INST' of component 'LCD_SIGNAL_IF' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:258]
+INFO: [Synth 8-638] synthesizing module 'LCD_SIGNAL_IF' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2278]
+	Parameter CLK_DIV_COUNT_WIDTH bound to: 8 - type: integer 
+	Parameter RESET_WAIT_COUNT_WIDTH bound to: 10 - type: integer 
+	Parameter RESET_WAIT_COUNTER_END bound to: 1020 - type: integer 
+	Parameter RESET_WAIT_AFTER_COUNTER_END bound to: 150 - type: integer 
+	Parameter DDR_ALIGNMENT bound to: NONE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-113] binding component instance 'SCL_ODDR2_INST' to cell 'ODDR2' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2321]
+INFO: [Synth 8-256] done synthesizing module 'LCD_SIGNAL_IF' (10#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2278]
+INFO: [Synth 8-3491] module 'LCD_MEM_CONTROL' declared at 'C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2015' bound to instance 'LCD_MEM_CONTROL_INST' of component 'LCD_MEM_CONTROL' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:280]
+INFO: [Synth 8-638] synthesizing module 'LCD_MEM_CONTROL' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2030]
+INFO: [Synth 8-3491] module 'BLOCK_RAM_CORE_ASCII_LUT_SMALL_BIG_2K_ZYBO' declared at 'C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:306' bound to instance 'ASCII_LUT_BRAM' of component 'BLOCK_RAM_CORE_ASCII_LUT_SMALL_BIG_2K_ZYBO' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2078]
+INFO: [Synth 8-638] synthesizing module 'BLOCK_RAM_CORE_ASCII_LUT_SMALL_BIG_2K_ZYBO' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:318]
+INFO: [Synth 8-256] done synthesizing module 'BLOCK_RAM_CORE_ASCII_LUT_SMALL_BIG_2K_ZYBO' (11#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:318]
+INFO: [Synth 8-3491] module 'BLOCK_RAM_CORE_ZYBO' declared at 'C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:462' bound to instance 'DISPLAY_COPY_BRAM' of component 'BLOCK_RAM_CORE_ZYBO' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2087]
+INFO: [Synth 8-638] synthesizing module 'BLOCK_RAM_CORE_ZYBO' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:474]
+INFO: [Synth 8-256] done synthesizing module 'BLOCK_RAM_CORE_ZYBO' (12#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:474]
+INFO: [Synth 8-256] done synthesizing module 'LCD_MEM_CONTROL' (13#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2030]
+INFO: [Synth 8-256] done synthesizing module 'LCD_CONTROLLER' (14#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'TOP_OF_YOUR_BICYCLE' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/top_of_your_bicycle.v:4]
+INFO: [Synth 8-638] synthesizing module 'calcul_block' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/calcul_block.v:23]
+INFO: [Synth 8-638] synthesizing module 'gen_1s' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/gen_1s.v:23]
+INFO: [Synth 8-256] done synthesizing module 'gen_1s' (15#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/gen_1s.v:23]
+INFO: [Synth 8-638] synthesizing module 'gen_10ms' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/gen_10ms.v:4]
+INFO: [Synth 8-256] done synthesizing module 'gen_10ms' (16#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/gen_10ms.v:4]
+INFO: [Synth 8-638] synthesizing module 'threshold' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/threshold.v:23]
+INFO: [Synth 8-256] done synthesizing module 'threshold' (17#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/threshold.v:23]
+INFO: [Synth 8-638] synthesizing module 'trip_time' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/trip_time.v:23]
+INFO: [Synth 8-256] done synthesizing module 'trip_time' (18#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/trip_time.v:23]
+INFO: [Synth 8-638] synthesizing module 'trip_distance' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/trip_distance.v:22]
+INFO: [Synth 8-256] done synthesizing module 'trip_distance' (19#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/trip_distance.v:22]
+INFO: [Synth 8-638] synthesizing module 'average_speed' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/average_speed.v:22]
+INFO: [Synth 8-638] synthesizing module 'divide' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/divide.v:23]
+INFO: [Synth 8-256] done synthesizing module 'divide' (20#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/divide.v:23]
+INFO: [Synth 8-256] done synthesizing module 'average_speed' (21#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/average_speed.v:22]
+WARNING: [Synth 8-689] width (20) of port connection 'TIM' does not match port width (13) of module 'average_speed' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/calcul_block.v:85]
+INFO: [Synth 8-638] synthesizing module 'inst_speed' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/inst_speed.v:23]
+INFO: [Synth 8-256] done synthesizing module 'inst_speed' (22#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/inst_speed.v:23]
+INFO: [Synth 8-638] synthesizing module 'max' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/max.v:23]
+INFO: [Synth 8-256] done synthesizing module 'max' (23#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/max.v:23]
+WARNING: [Synth 8-689] width (7) of port connection 'KMH' does not match port width (8) of module 'max' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/calcul_block.v:103]
+WARNING: [Synth 8-689] width (7) of port connection 'MAX' does not match port width (8) of module 'max' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/calcul_block.v:104]
+INFO: [Synth 8-256] done synthesizing module 'calcul_block' (24#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/calcul_block.v:23]
+INFO: [Synth 8-638] synthesizing module 'control_block' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/control_block.v:23]
+INFO: [Synth 8-638] synthesizing module 'disp_out' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/disp_out.v:4]
+	Parameter dualwidth bound to: 14 - type: integer 
+	Parameter bcdwidth bound to: 16 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'dual2bcd' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/dual2bcd.v:4]
+	Parameter dualwidth bound to: 14 - type: integer 
+	Parameter bcdwidth bound to: 16 - type: integer 
+	Parameter bcddigit bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'dual2bcd' (25#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/dual2bcd.v:4]
+INFO: [Synth 8-638] synthesizing module 'bcd2ascii' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/bcd2ascii.v:4]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/bcd2ascii.v:15]
+INFO: [Synth 8-256] done synthesizing module 'bcd2ascii' (26#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/bcd2ascii.v:4]
+INFO: [Synth 8-256] done synthesizing module 'disp_out' (27#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/disp_out.v:4]
+WARNING: [Synth 8-689] width (1) of port connection 'displ_0100' does not match port width (8) of module 'disp_out' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/control_block.v:172]
+WARNING: [Synth 8-689] width (1) of port connection 'displ_1000' does not match port width (8) of module 'disp_out' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/control_block.v:173]
+INFO: [Synth 8-638] synthesizing module 'clk_1s' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/clk_1s.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clk_1s' (28#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/clk_1s.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_blink' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/clk_blink.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clk_blink' (29#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/clk_blink.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/control_block.v:65]
+INFO: [Synth 8-226] default block is never used [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/control_block.v:110]
+INFO: [Synth 8-256] done synthesizing module 'control_block' (30#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/control_block.v:23]
+INFO: [Synth 8-256] done synthesizing module 'TOP_OF_YOUR_BICYCLE' (31#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/top_of_your_bicycle.v:4]
+INFO: [Synth 8-256] done synthesizing module 'global_toplevel' (32#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/global_toplevel.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:29 ; elapsed = 00:11:55 . Memory (MB): peak = 797.277 ; gain = 570.445
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:30 ; elapsed = 00:11:56 . Memory (MB): peak = 797.277 ; gain = 570.445
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/stop_watch.xdc]
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/stop_watch.xdc]
+Parsing XDC File [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc]
+INFO: [Vivado 12-2286] Implicit search of objects for pattern '*' matched to 'clock' objects. [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern '*' matched to 'clock' objects. [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc:3]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern '*' matched to 'clock' objects. [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc:4]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern '*' matched to 'clock' objects. [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc:6]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern '*' matched to 'clock' objects. [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc:7]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern '*' matched to 'clock' objects. [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc:9]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern '*' matched to 'clock' objects. [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc:10]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-140] Inserted 2 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 7 OBUFs to IO ports without IO buffers.
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  ODDR2 => ODDR: 1 instances
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:01:51 ; elapsed = 00:12:16 . Memory (MB): peak = 1120.727 ; gain = 893.895
+96 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:27 . Memory (MB): peak = 1120.727 ; gain = 379.270
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Sun Feb 05 09:27:30 2017] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log
+[Sun Feb 05 09:27:30 2017] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+[Sun Feb 05 09:32:10 2017] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1120.727 ; gain = 0.000
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279540088A
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1147.836 ; gain = 0.000
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279540088A
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Sun Feb 05 09:52:09 2017] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log
+[Sun Feb 05 09:52:09 2017] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1172.563 ; gain = 0.000
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279540088A
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Sun Feb 05 10:01:00 2017] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log
+[Sun Feb 05 10:01:00 2017] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1173.313 ; gain = 0.000
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279540088A
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Sun Feb 05 10:12:24 2017] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log
+[Sun Feb 05 10:12:24 2017] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1176.602 ; gain = 0.000
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279540088A
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Sun Feb 05 10:18:52 2017] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log
+[Sun Feb 05 10:18:52 2017] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+close_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Sun Feb 05 10:30:41 2017] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Sun Feb 05 10:32:34 2017] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log
+[Sun Feb 05 10:32:34 2017] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1188.754 ; gain = 0.000
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279540088A
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1195.762 ; gain = 0.000
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279540088A
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].

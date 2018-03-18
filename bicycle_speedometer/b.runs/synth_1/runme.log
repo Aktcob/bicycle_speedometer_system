@@ -1,0 +1,1154 @@
+
+*** Running vivado
+    with args -log global_toplevel.vds -m64 -mode batch -messageDb vivado.pb -notrace -source global_toplevel.tcl
+
+
+****** Vivado v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source global_toplevel.tcl -notrace
+Command: synth_design -top global_toplevel -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-1223] The version limit for your license is '2015.06' and will expire in -590 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 264.461 ; gain = 37.699
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'global_toplevel' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/global_toplevel.v:4]
+INFO: [Synth 8-638] synthesizing module 'FDRE' [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3016]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE' (1#1) [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3016]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized0' [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3016]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized0' (1#1) [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3016]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized1' [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3016]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized1' (1#1) [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3016]
+INFO: [Synth 8-638] synthesizing module 'FDRE__parameterized2' [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3016]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE__parameterized2' (1#1) [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3016]
+INFO: [Synth 8-638] synthesizing module 'PULSE_SHAPE' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/pulse_shape.v:4]
+INFO: [Synth 8-256] done synthesizing module 'PULSE_SHAPE' (2#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/pulse_shape.v:4]
+INFO: [Synth 8-638] synthesizing module 'CLK_DIVIDER_BIKE' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/CLK_DIVIDER_BIKE.v:5]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (3#1) [D:/vivado/Vivado/2015.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'CLK_DIVIDER_BIKE' (4#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/CLK_DIVIDER_BIKE.v:5]
+INFO: [Synth 8-638] synthesizing module 'KMH_TEST' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/kmh_test.v:5]
+INFO: [Synth 8-256] done synthesizing module 'KMH_TEST' (5#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/kmh_test.v:5]
+INFO: [Synth 8-638] synthesizing module 'LCD_CONTROLLER' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:35]
+INFO: [Synth 8-3491] module 'BICYCLE_LCD_MASTER' declared at 'C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:673' bound to instance 'BICYCLE_LCD_MASTER_INST' of component 'BICYCLE_LCD_MASTER' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'BICYCLE_LCD_MASTER' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:700]
+INFO: [Synth 8-3491] module 'CMD_FIFO_TO_WB_MASTER' declared at 'C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1287' bound to instance 'WB_CMD_FIFO_TO_WB_MASTER' of component 'CMD_FIFO_TO_WB_MASTER' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:958]
+INFO: [Synth 8-638] synthesizing module 'CMD_FIFO_TO_WB_MASTER' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1304]
+INFO: [Synth 8-256] done synthesizing module 'CMD_FIFO_TO_WB_MASTER' (6#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1304]
+INFO: [Synth 8-3491] module 'SMALL_FIFO_ZYBO' declared at 'C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:567' bound to instance 'WB_CMD_FIFO' of component 'SMALL_FIFO_ZYBO' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:972]
+INFO: [Synth 8-638] synthesizing module 'SMALL_FIFO_ZYBO' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:581]
+INFO: [Synth 8-256] done synthesizing module 'SMALL_FIFO_ZYBO' (7#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:581]
+INFO: [Synth 8-256] done synthesizing module 'BICYCLE_LCD_MASTER' (8#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:700]
+INFO: [Synth 8-3491] module 'LCD_CMD_DECODER' declared at 'C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1453' bound to instance 'LCD_CMD_DECODER_INST' of component 'LCD_CMD_DECODER' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:237]
+INFO: [Synth 8-638] synthesizing module 'LCD_CMD_DECODER' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1477]
+INFO: [Synth 8-256] done synthesizing module 'LCD_CMD_DECODER' (9#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1477]
+	Parameter CLK_DIV_COUNT_WIDTH bound to: 8 - type: integer 
+	Parameter RESET_WAIT_COUNT_WIDTH bound to: 10 - type: integer 
+	Parameter RESET_WAIT_COUNTER_END bound to: 1020 - type: integer 
+	Parameter RESET_WAIT_AFTER_COUNTER_END bound to: 150 - type: integer 
+INFO: [Synth 8-3491] module 'LCD_SIGNAL_IF' declared at 'C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2253' bound to instance 'LCD_SIGNAL_IF_INST' of component 'LCD_SIGNAL_IF' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:258]
+INFO: [Synth 8-638] synthesizing module 'LCD_SIGNAL_IF' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2278]
+	Parameter CLK_DIV_COUNT_WIDTH bound to: 8 - type: integer 
+	Parameter RESET_WAIT_COUNT_WIDTH bound to: 10 - type: integer 
+	Parameter RESET_WAIT_COUNTER_END bound to: 1020 - type: integer 
+	Parameter RESET_WAIT_AFTER_COUNTER_END bound to: 150 - type: integer 
+	Parameter DDR_ALIGNMENT bound to: NONE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-113] binding component instance 'SCL_ODDR2_INST' to cell 'ODDR2' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2321]
+INFO: [Synth 8-256] done synthesizing module 'LCD_SIGNAL_IF' (10#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2278]
+INFO: [Synth 8-3491] module 'LCD_MEM_CONTROL' declared at 'C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2015' bound to instance 'LCD_MEM_CONTROL_INST' of component 'LCD_MEM_CONTROL' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:280]
+INFO: [Synth 8-638] synthesizing module 'LCD_MEM_CONTROL' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2030]
+INFO: [Synth 8-3491] module 'BLOCK_RAM_CORE_ASCII_LUT_SMALL_BIG_2K_ZYBO' declared at 'C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:306' bound to instance 'ASCII_LUT_BRAM' of component 'BLOCK_RAM_CORE_ASCII_LUT_SMALL_BIG_2K_ZYBO' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2078]
+INFO: [Synth 8-638] synthesizing module 'BLOCK_RAM_CORE_ASCII_LUT_SMALL_BIG_2K_ZYBO' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:318]
+INFO: [Synth 8-256] done synthesizing module 'BLOCK_RAM_CORE_ASCII_LUT_SMALL_BIG_2K_ZYBO' (11#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:318]
+INFO: [Synth 8-3491] module 'BLOCK_RAM_CORE_ZYBO' declared at 'C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:462' bound to instance 'DISPLAY_COPY_BRAM' of component 'BLOCK_RAM_CORE_ZYBO' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2087]
+INFO: [Synth 8-638] synthesizing module 'BLOCK_RAM_CORE_ZYBO' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:474]
+INFO: [Synth 8-256] done synthesizing module 'BLOCK_RAM_CORE_ZYBO' (12#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:474]
+INFO: [Synth 8-256] done synthesizing module 'LCD_MEM_CONTROL' (13#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:2030]
+INFO: [Synth 8-256] done synthesizing module 'LCD_CONTROLLER' (14#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'TOP_OF_YOUR_BICYCLE' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/top_of_your_bicycle.v:4]
+INFO: [Synth 8-638] synthesizing module 'calcul_block' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/calcul_block.v:23]
+INFO: [Synth 8-638] synthesizing module 'gen_1s' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/gen_1s.v:23]
+INFO: [Synth 8-256] done synthesizing module 'gen_1s' (15#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/gen_1s.v:23]
+INFO: [Synth 8-638] synthesizing module 'gen_10ms' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/gen_10ms.v:4]
+INFO: [Synth 8-256] done synthesizing module 'gen_10ms' (16#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/gen_10ms.v:4]
+INFO: [Synth 8-638] synthesizing module 'threshold' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/threshold.v:23]
+INFO: [Synth 8-256] done synthesizing module 'threshold' (17#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/threshold.v:23]
+INFO: [Synth 8-638] synthesizing module 'trip_time' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/trip_time.v:23]
+INFO: [Synth 8-256] done synthesizing module 'trip_time' (18#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/trip_time.v:23]
+INFO: [Synth 8-638] synthesizing module 'trip_distance' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/trip_distance.v:22]
+INFO: [Synth 8-256] done synthesizing module 'trip_distance' (19#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/trip_distance.v:22]
+INFO: [Synth 8-638] synthesizing module 'average_speed' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/average_speed.v:22]
+INFO: [Synth 8-638] synthesizing module 'divide' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/divide.v:23]
+INFO: [Synth 8-256] done synthesizing module 'divide' (20#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/divide.v:23]
+INFO: [Synth 8-256] done synthesizing module 'average_speed' (21#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/average_speed.v:22]
+WARNING: [Synth 8-689] width (20) of port connection 'TIM' does not match port width (13) of module 'average_speed' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/calcul_block.v:95]
+INFO: [Synth 8-638] synthesizing module 'inst_speed' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/inst_speed.v:23]
+INFO: [Synth 8-256] done synthesizing module 'inst_speed' (22#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/inst_speed.v:23]
+INFO: [Synth 8-638] synthesizing module 'max' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/max.v:23]
+INFO: [Synth 8-256] done synthesizing module 'max' (23#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/max.v:23]
+INFO: [Synth 8-256] done synthesizing module 'calcul_block' (24#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/calcul_block.v:23]
+INFO: [Synth 8-638] synthesizing module 'control_block' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/control_block.v:23]
+INFO: [Synth 8-638] synthesizing module 'disp_out' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/disp_out.v:4]
+	Parameter dualwidth bound to: 14 - type: integer 
+	Parameter bcdwidth bound to: 16 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'dual2bcd' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/dual2bcd.v:4]
+	Parameter dualwidth bound to: 14 - type: integer 
+	Parameter bcdwidth bound to: 16 - type: integer 
+	Parameter bcddigit bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'dual2bcd' (25#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/dual2bcd.v:4]
+INFO: [Synth 8-638] synthesizing module 'bcd2ascii' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/bcd2ascii.v:4]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/bcd2ascii.v:15]
+INFO: [Synth 8-256] done synthesizing module 'bcd2ascii' (26#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/bcd2ascii.v:4]
+INFO: [Synth 8-256] done synthesizing module 'disp_out' (27#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/disp_out.v:4]
+WARNING: [Synth 8-689] width (1) of port connection 'displ_0100' does not match port width (8) of module 'disp_out' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/control_block.v:172]
+WARNING: [Synth 8-689] width (1) of port connection 'displ_1000' does not match port width (8) of module 'disp_out' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/control_block.v:173]
+INFO: [Synth 8-638] synthesizing module 'clk_1s' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/clk_1s.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clk_1s' (28#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/clk_1s.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_blink' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/clk_blink.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clk_blink' (29#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/clk_blink.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/control_block.v:65]
+INFO: [Synth 8-226] default block is never used [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/control_block.v:110]
+INFO: [Synth 8-256] done synthesizing module 'control_block' (30#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/control_block.v:23]
+INFO: [Synth 8-256] done synthesizing module 'TOP_OF_YOUR_BICYCLE' (31#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/top_of_your_bicycle.v:4]
+INFO: [Synth 8-256] done synthesizing module 'global_toplevel' (32#1) [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/global_toplevel.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 310.613 ; gain = 83.852
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 310.613 ; gain = 83.852
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/stop_watch.xdc]
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/stop_watch.xdc]
+Parsing XDC File [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc]
+INFO: [Vivado 12-2286] Implicit search of objects for pattern '*' matched to 'clock' objects. [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern '*' matched to 'clock' objects. [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc:3]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern '*' matched to 'clock' objects. [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc:4]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern '*' matched to 'clock' objects. [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc:6]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern '*' matched to 'clock' objects. [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc:7]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern '*' matched to 'clock' objects. [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc:9]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern '*' matched to 'clock' objects. [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc:10]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/b/b.srcs/constrs_1/imports/syn/timings.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  ODDR2 => ODDR: 1 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 651.895 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 651.895 ; gain = 425.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 651.895 ; gain = 425.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 651.895 ; gain = 425.133
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "internal_slow_clock" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "counter" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "REED_TEST" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'CMD_FIFO_TO_WB_MASTER'
+INFO: [Synth 8-5544] ROM "WE_O" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIFO_RD_EN" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Temp_Addr" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Temp_Data" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'display_string_reg[8][7:0]' into 'display_string_reg[9][7:0]' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1007]
+INFO: [Synth 8-4471] merging register 'display_string_reg[7][7:0]' into 'display_string_reg[9][7:0]' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1007]
+INFO: [Synth 8-4471] merging register 'display_string_reg[6][7:0]' into 'display_string_reg[9][7:0]' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1007]
+INFO: [Synth 8-4471] merging register 'display_string_reg[5][7:0]' into 'display_string_reg[9][7:0]' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1007]
+INFO: [Synth 8-4471] merging register 'display_string_reg[4][7:0]' into 'display_string_reg[9][7:0]' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1007]
+INFO: [Synth 8-4471] merging register 'display_string_reg[3][7:0]' into 'display_string_reg[9][7:0]' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/imports/sources/syn/LCD_Controller.vhd:1007]
+INFO: [Synth 8-5544] ROM "iAVS" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "iMAX" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "iTIM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "iPOINT" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "icolon" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "iLOWER1_ASCII" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "iLOWER10_ASCII" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "iLOWER100_ASCII" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "iUPPER1_ASCII" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "iUPPER10_ASCII" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "iSig_change_idx" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "iDAY" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "iLOWER1000_ASCII" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[13][str_len]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[5][str_len]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[12][str_len]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[3][disp_string][3]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[2][disp_string][3]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[3][disp_string][2]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[0][disp_string][3]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[2][disp_string][2]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[1][disp_string][2]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[13][disp_string][1]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[4][disp_string][1]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[3][disp_string][1]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[1][disp_string][1]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[0][disp_string][1]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[13][char_mode]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[9][pos_y]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[4][pos_y]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[11][char_mode]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[12][pos_x]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[11][pos_x]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[10][pos_x]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[9][pos_x]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[8][pos_x]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "retVal[4][pos_x]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state3" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "next_state3" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "iLCD_IF_DATA_o" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "iLCD_IF_RS_o" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "iMEM_MODE_o" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "iMEM_ASCII_CODE_o" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'LCD_MEM_CONTROL'
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'wb_if_state_reg' in module 'LCD_CONTROLLER'
+INFO: [Synth 8-5544] ROM "wb_if_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wb_if_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wb_if_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "gen_1s" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "enable_10ms" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "hour_flag" won't be mapped to RAM because address size (20) is larger than maximum supported(18)
+INFO: [Synth 8-5546] ROM "stop_flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "finish" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+INFO: [Synth 8-5546] ROM "clk1s" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                     Old Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+              read_addr1 |                              001 |                              001
+              read_addr2 |                              010 |                              010
+              read_data1 |                              011 |                              011
+              read_data2 |                              100 |                              100
+                wait_bus |                              101 |                              101
+               write_bus |                              110 |                              110
+                wait_ack |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'CMD_FIFO_TO_WB_MASTER'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                     Old Encoding 
+---------------------------------------------------------------------------------------------------
+             reset_start |                             0000 |                             1000
+               reset_ram |                             0001 |                             0111
+             wait_on_cmd |                             0010 |                             0000
+       process_ascii_lut |                             0011 |                             0001
+   read_ascii_lut_wait_1 |                             0100 |                             0010
+   read_ascii_lut_wait_2 |                             0101 |                             0011
+   read_ascii_lut_wait_3 |                             0110 |                             0100
+    process_display_copy |                             0111 |                             0101
+       read_display_copy |                             1000 |                             0110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'LCD_MEM_CONTROL'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                     Old Encoding 
+---------------------------------------------------------------------------------------------------
+                 wb_idle |                              000 |                              000
+            wb_wait_read |                              001 |                              001
+           wb_wait_write |                              010 |                              010
+              wb_gen_ack |                              011 |                              011
+               wb_wait_1 |                              100 |                              100
+               wb_wait_2 |                              101 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wb_if_state_reg' using encoding 'sequential' in module 'LCD_CONTROLLER'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 651.895 ; gain = 425.133
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 3     
+	   2 Input     15 Bit       Adders := 1     
+	   2 Input     14 Bit       Adders := 4     
+	   2 Input     13 Bit       Adders := 3     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 5     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 11    
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 14    
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               24 Bit    Registers := 1     
+	               16 Bit    Registers := 9     
+	               15 Bit    Registers := 1     
+	               14 Bit    Registers := 7     
+	               13 Bit    Registers := 3     
+	               11 Bit    Registers := 6     
+	               10 Bit    Registers := 3     
+	                8 Bit    Registers := 39    
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 9     
+	                4 Bit    Registers := 9     
+	                3 Bit    Registers := 10    
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 54    
++---RAMs : 
+	              16K Bit         RAMs := 1     
+	               8K Bit         RAMs := 1     
+	              128 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 14    
+	  10 Input     15 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 9     
+	   4 Input     14 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 4     
+	   2 Input     10 Bit        Muxes := 1     
+	  14 Input     10 Bit        Muxes := 2     
+	  10 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 15    
+	  19 Input      8 Bit        Muxes := 2     
+	   7 Input      8 Bit        Muxes := 1     
+	  10 Input      8 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 2     
+	   5 Input      8 Bit        Muxes := 1     
+	  12 Input      8 Bit        Muxes := 1     
+	  28 Input      8 Bit        Muxes := 1     
+	   3 Input      7 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 12    
+	   5 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 3     
+	  11 Input      6 Bit        Muxes := 8     
+	   2 Input      5 Bit        Muxes := 14    
+	  21 Input      5 Bit        Muxes := 5     
+	  12 Input      5 Bit        Muxes := 2     
+	   6 Input      5 Bit        Muxes := 2     
+	  28 Input      5 Bit        Muxes := 2     
+	   7 Input      5 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 1     
+	  19 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 27    
+	   3 Input      4 Bit        Muxes := 2     
+	   7 Input      4 Bit        Muxes := 3     
+	   9 Input      4 Bit        Muxes := 2     
+	  15 Input      4 Bit        Muxes := 1     
+	  13 Input      3 Bit        Muxes := 1     
+	  19 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 9     
+	   3 Input      3 Bit        Muxes := 2     
+	  14 Input      3 Bit        Muxes := 3     
+	   7 Input      3 Bit        Muxes := 1     
+	  28 Input      3 Bit        Muxes := 4     
+	  31 Input      3 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	  14 Input      2 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 13    
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 46    
+	  10 Input      1 Bit        Muxes := 9     
+	   8 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 4     
+	  19 Input      1 Bit        Muxes := 5     
+	  20 Input      1 Bit        Muxes := 1     
+	  21 Input      1 Bit        Muxes := 2     
+	  25 Input      1 Bit        Muxes := 6     
+	  26 Input      1 Bit        Muxes := 6     
+	  39 Input      1 Bit        Muxes := 5     
+	  12 Input      1 Bit        Muxes := 5     
+	  41 Input      1 Bit        Muxes := 1     
+	  28 Input      1 Bit        Muxes := 9     
+	   5 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 11    
+	  14 Input      1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module PULSE_SHAPE 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+Module CLK_DIVIDER_BIKE 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
++---Registers : 
+	               14 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module KMH_TEST 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     15 Bit       Adders := 1     
++---Registers : 
+	               15 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  10 Input     15 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	  10 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	  10 Input      1 Bit        Muxes := 2     
+Module CMD_FIFO_TO_WB_MASTER 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	  13 Input      3 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+Module SMALL_FIFO_ZYBO 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
++---RAMs : 
+	              128 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 6     
+Module BICYCLE_LCD_MASTER 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 3     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               14 Bit    Registers := 1     
+	                8 Bit    Registers := 14    
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	  19 Input      8 Bit        Muxes := 2     
+	   7 Input      8 Bit        Muxes := 1     
+	  10 Input      8 Bit        Muxes := 1     
+	   3 Input      7 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 12    
+	   5 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 8     
+	  21 Input      5 Bit        Muxes := 5     
+	  19 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 9     
+	   3 Input      4 Bit        Muxes := 2     
+	  19 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 7     
+	   3 Input      3 Bit        Muxes := 1     
+	  14 Input      3 Bit        Muxes := 2     
+	   7 Input      3 Bit        Muxes := 1     
+	  14 Input      2 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 5     
+	   3 Input      2 Bit        Muxes := 1     
+	  19 Input      1 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 5     
+	  20 Input      1 Bit        Muxes := 1     
+	  21 Input      1 Bit        Muxes := 2     
+	  25 Input      1 Bit        Muxes := 6     
+	  26 Input      1 Bit        Muxes := 6     
+Module LCD_CMD_DECODER 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 7     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 8     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 4     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 9     
+	   4 Input      8 Bit        Muxes := 2     
+	   5 Input      8 Bit        Muxes := 1     
+	  12 Input      8 Bit        Muxes := 1     
+	  28 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 6     
+	  12 Input      5 Bit        Muxes := 2     
+	   6 Input      5 Bit        Muxes := 2     
+	  28 Input      5 Bit        Muxes := 2     
+	   7 Input      5 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   7 Input      4 Bit        Muxes := 1     
+	  28 Input      3 Bit        Muxes := 4     
+	  31 Input      3 Bit        Muxes := 1     
+	  39 Input      1 Bit        Muxes := 5     
+	  12 Input      1 Bit        Muxes := 5     
+	  41 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	  28 Input      1 Bit        Muxes := 9     
+	   3 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module LCD_SIGNAL_IF 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 3     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	  14 Input     10 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 9     
+	   7 Input      4 Bit        Muxes := 2     
+	  14 Input      3 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 12    
+Module BLOCK_RAM_CORE_ASCII_LUT_SMALL_BIG_2K_ZYBO 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
++---RAMs : 
+	              16K Bit         RAMs := 1     
+Module BLOCK_RAM_CORE_ZYBO 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
++---RAMs : 
+	               8K Bit         RAMs := 1     
+Module LCD_MEM_CONTROL 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	  10 Input     10 Bit        Muxes := 1     
+	  10 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 2     
+	  15 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 7     
+Module LCD_CONTROLLER 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   9 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 3     
+Module gen_1s 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 1     
++---Registers : 
+	               13 Bit    Registers := 1     
+Module gen_10ms 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module threshold 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module trip_time 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 3     
+	   2 Input     14 Bit       Adders := 3     
++---Registers : 
+	               16 Bit    Registers := 3     
+	               14 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 10    
+	   2 Input     14 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 8     
+Module trip_distance 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module divide 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module average_speed 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 1     
+	               13 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module inst_speed 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module max 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module calcul_block 
+Detailed RTL Component Info : 
++---Registers : 
+	               14 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+Module dual2bcd 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 4     
++---Registers : 
+	               16 Bit    Registers := 2     
+	               14 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 2     
+Module bcd2ascii 
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input      6 Bit        Muxes := 1     
+Module disp_out 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module clk_1s 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 1     
++---Registers : 
+	               13 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module clk_blink 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     13 Bit        Muxes := 1     
+Module control_block 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               14 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   4 Input     14 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 651.895 ; gain = 425.133
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "internal_slow_clock" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "iLCD_IF_DATA_o" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "next_state2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4471] merging register 'AVERAGE_SPEED/DIVIDE/ans_reg[10:0]' into 'AVERAGE_SPEED/DIVIDE/ans_reg[10:0]' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/divide.v:32]
+INFO: [Synth 8-4471] merging register 'INST_SPEED/DIVIDE_2/ans_reg[10:0]' into 'INST_SPEED/DIVIDE_2/ans_reg[10:0]' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/divide.v:32]
+INFO: [Synth 8-5546] ROM "GEN_1S/gen_1s" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "TRIP_TIME/hour_flag" won't be mapped to RAM because address size (20) is larger than maximum supported(18)
+INFO: [Synth 8-5546] ROM "INST_SPEED/stop_flag" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP AVERAGE_SPEED/DIVIDE/ans2, operation Mode is: A*B2.
+DSP Report: register AVERAGE_SPEED/DIVIDE/ans_reg is absorbed into DSP AVERAGE_SPEED/DIVIDE/ans2.
+DSP Report: operator AVERAGE_SPEED/DIVIDE/ans2 is absorbed into DSP AVERAGE_SPEED/DIVIDE/ans2.
+DSP Report: Generating DSP AVERAGE_SPEED/A0, operation Mode is: A2*(B:0x24).
+DSP Report: register DAY_M_PER_reg is absorbed into DSP AVERAGE_SPEED/A0.
+DSP Report: operator AVERAGE_SPEED/A0 is absorbed into DSP AVERAGE_SPEED/A0.
+DSP Report: Generating DSP INST_SPEED/DIVIDE_2/ans2, operation Mode is: A2*B2.
+DSP Report: register INST_SPEED/DIVIDE_2/ans_reg is absorbed into DSP INST_SPEED/DIVIDE_2/ans2.
+DSP Report: register INST_SPEED/tim_reg is absorbed into DSP INST_SPEED/DIVIDE_2/ans2.
+DSP Report: operator INST_SPEED/DIVIDE_2/ans2 is absorbed into DSP INST_SPEED/DIVIDE_2/ans2.
+INFO: [Synth 8-4471] merging register 'DISP_UPPER/bcd_start_reg' into 'DISP_LOWER/bcd_start_reg' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/disp_out.v:30]
+INFO: [Synth 8-5545] ROM "DISP_LOWER/inst1_dual2bcd/finish" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+INFO: [Synth 8-5545] ROM "DISP_UPPER/inst1_dual2bcd/finish" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+INFO: [Synth 8-5546] ROM "CLK_1S/clk1s" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "KMH_TEST_BIKE/counter" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:36 . Memory (MB): peak = 651.895 ; gain = 425.133
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:27 ; elapsed = 00:00:36 . Memory (MB): peak = 651.895 ; gain = 425.133
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------------+------------+---------------+----------------+
+|Module Name        | RTL Object | Depth x Width | Implemented As | 
++-------------------+------------+---------------+----------------+
+|BICYCLE_LCD_MASTER | rom        | 32x1          | LUT            | 
+|BICYCLE_LCD_MASTER | rom__1     | 32x1          | LUT            | 
+|BICYCLE_LCD_MASTER | rom        | 32x1          | LUT            | 
+|BICYCLE_LCD_MASTER | rom__2     | 32x1          | LUT            | 
++-------------------+------------+---------------+----------------+
+
+
+Block RAM:
++----------------+--------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+---------+--------+--------+---------------------------+
+|Module Name     | RTL Object                                                         | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | OUT_REG | RAMB18 | RAMB36 | Hierarchical Name         | 
++----------------+--------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+---------+--------+--------+---------------------------+
+|global_toplevel | LCD_CONTROLLER_INST/LCD_MEM_CONTROL_INST/ASCII_LUT_BRAM/RAM_reg    | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A  | 1      | 0      | global_toplevel/extram__6 | 
+|global_toplevel | LCD_CONTROLLER_INST/LCD_MEM_CONTROL_INST/DISPLAY_COPY_BRAM/RAM_reg | 1 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A  | 1      | 0      | global_toplevel/extram__8 | 
++----------------+--------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+---------+--------+--------+---------------------------+
+
+Note: The table shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. "Hierarchical Name" reflects the Block RAM name as it appears in the hierarchical module and only part of it is displayed.
+Distributed RAM: 
++----------------+---------------------------------------------------------------------+-----------+----------------------+--------------+------------------------+
+|Module Name     | RTL Object                                                          | Inference | Size (Depth x Width) | Primitives   | Hierarchical Name      | 
++----------------+---------------------------------------------------------------------+-----------+----------------------+--------------+------------------------+
+|global_toplevel | LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/WB_CMD_FIFO/fifoMEM_reg | Implied   | 16 x 8               | RAM32M x 2   | global_toplevel/ram__1 | 
++----------------+---------------------------------------------------------------------+-----------+----------------------+--------------+------------------------+
+
+Note: The table shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the Distributed RAM name as it appears in the hierarchical module and only part of it is displayed.
+DSP:
++-------------+-------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name  | DSP Mapping | Neg Edge Clk | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------+-------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|calcul_block | A*B2        | No           | 13     | 11     | 48     | 25     | 24     | 0    | 1    | 1    | 1    | 1     | 0    | 0    | 
+|calcul_block | A2*(B:0x24) | No           | 14     | 6      | 48     | 25     | 20     | 1    | 0    | 1    | 1    | 1     | 0    | 0    | 
+|calcul_block | A2*B2       | No           | 17     | 11     | 48     | 25     | 28     | 1    | 1    | 1    | 1    | 1     | 0    | 0    | 
++-------------+-------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/display_string_reg[0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/display_string_reg[9][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/stateAfterSetup_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iUPPER10_ASCII_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iUPPER1_ASCII_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iLOWER1000_ASCII_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iLOWER100_ASCII_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iLOWER10_ASCII_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iLOWER1_ASCII_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LCD_CONTROLLER_INST/LCD_SIGNAL_IF_INST/reset_wait_count_end_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/iLCD_IF_RS_o_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/iMEM_MODE_o_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LCD_CONTROLLER_INST/LCD_SIGNAL_IF_INST/iC86_o_reg )
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/state2_reg[4] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/display_string_reg[9][6] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iLOWER1_ASCII_reg[7] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iLOWER1_ASCII_reg[6] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iLOWER10_ASCII_reg[7] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iLOWER10_ASCII_reg[6] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iLOWER100_ASCII_reg[7] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iLOWER100_ASCII_reg[6] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iLOWER1000_ASCII_reg[7] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iLOWER1000_ASCII_reg[6] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iUPPER1_ASCII_reg[7] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iUPPER1_ASCII_reg[6] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iUPPER10_ASCII_reg[7] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iUPPER10_ASCII_reg[6] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/stateAfterSetup_reg[4] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/stateAfterSetup_reg[2] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/stateAfterSetup_reg[1] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/stateAfterTransmitt_reg[4] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/display_string_reg[9][0] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iCh_y_pos_reg[6] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iCh_x_pos_reg[6] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/display_string_reg[9][7] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/display_string_reg[0][7] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/display_string_reg[1][7] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/display_string_reg[2][7] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iCh_y_pos_reg[7] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iCh_x_pos_reg[7] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/display_string_reg[9][4] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iCh_y_pos_reg[4] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iCh_y_pos_reg[5] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iCh_x_pos_reg[5] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/display_string_reg[9][2] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/display_string_reg[9][3] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/iCh_y_pos_reg[3] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/display_string_reg[9][1] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/imode_reg_reg[0] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/iMEM_MODE_o_reg[2] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/iMEM_MODE_o_reg[1] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/state3_reg[0] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/iMEM_ASCII_CODE_o_reg[7] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/iLCD_IF_RS_o_reg[1] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_SIGNAL_IF_INST/reset_wait_count_end_reg[8] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_SIGNAL_IF_INST/reset_wait_count_end_reg[6] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_SIGNAL_IF_INST/reset_wait_count_end_reg[5] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_SIGNAL_IF_INST/reset_wait_count_end_reg[4] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_SIGNAL_IF_INST/reset_wait_count_end_reg[3] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_SIGNAL_IF_INST/reset_wait_count_end_reg[2] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_SIGNAL_IF_INST/reset_wait_count_end_reg[0] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_SIGNAL_IF_INST/iRS_i_reg[1] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_MEM_CONTROL_INST/iMEM_WR_NOT_RD_i_reg ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_MEM_CONTROL_INST/ASCII_LUT_WE_reg[0] ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_SIGNAL_IF_INST/iC86_o_reg ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_CMD_DECODER_INST/iMEM_WR_o_reg ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\CALCUL_BLOCK/inst_gen_10ms/reg_out_reg[5] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CALCUL_BLOCK/inst_gen_10ms/reg_out_reg[4] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CALCUL_BLOCK/inst_gen_10ms/reg_out_reg[3] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CALCUL_BLOCK/inst_gen_10ms/reg_out_reg[2] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CALCUL_BLOCK/inst_gen_10ms/reg_out_reg[1] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CALCUL_BLOCK/inst_gen_10ms/reg_out_reg[0] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd_int_reg[15] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd_int_reg[14] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd_int_reg[13] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd_int_reg[12] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd_int_reg[11] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd_int_reg[10] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd_int_reg[9] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd_int_reg[8] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd_reg[15] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd_reg[14] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd_reg[13] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd_reg[12] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd_reg[11] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd_reg[10] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd_reg[9] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/inst1_dual2bcd/bcd_reg[8] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/bcd_reg[15] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/bcd_reg[14] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/bcd_reg[13] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/bcd_reg[12] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/bcd_reg[11] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/bcd_reg[10] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/bcd_reg[9] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/DISP_UPPER/bcd_reg[8] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CONTROL_BLOCK/KMH_reg ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\LCD_CONTROLLER_INST/LCD_SIGNAL_IF_INST/iIF_EN_reg )
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/LCD_SIGNAL_IF_INST/iIF_EN_reg ) is unused and will be removed from module global_toplevel.
+WARNING: [Synth 8-3332] Sequential element (\LCD_CONTROLLER_INST/BICYCLE_LCD_MASTER_INST/display_string_reg[0][6] ) is unused and will be removed from module global_toplevel.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:44 . Memory (MB): peak = 651.895 ; gain = 425.133
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:34 ; elapsed = 00:00:44 . Memory (MB): peak = 651.895 ; gain = 425.133
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:34 ; elapsed = 00:00:44 . Memory (MB): peak = 651.895 ; gain = 425.133
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:56 ; elapsed = 00:01:06 . Memory (MB): peak = 653.980 ; gain = 427.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:56 ; elapsed = 00:01:06 . Memory (MB): peak = 657.762 ; gain = 431.000
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (\CALCUL_BLOCK/AVERAGE_SPEED/A_reg[23] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CALCUL_BLOCK/AVERAGE_SPEED/A_reg[22] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CALCUL_BLOCK/AVERAGE_SPEED/A_reg[21] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+WARNING: [Synth 8-3332] Sequential element (\CALCUL_BLOCK/AVERAGE_SPEED/A_reg[20] ) is unused and will be removed from module TOP_OF_YOUR_BICYCLE.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:00 ; elapsed = 00:01:10 . Memory (MB): peak = 692.848 ; gain = 466.086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:00 ; elapsed = 00:01:10 . Memory (MB): peak = 692.848 ; gain = 466.086
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:01 ; elapsed = 00:01:10 . Memory (MB): peak = 692.848 ; gain = 466.086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:01 ; elapsed = 00:01:11 . Memory (MB): peak = 692.848 ; gain = 466.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:01:01 ; elapsed = 00:01:11 . Memory (MB): peak = 692.848 ; gain = 466.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:01 ; elapsed = 00:01:11 . Memory (MB): peak = 692.848 ; gain = 466.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     2|
+|2     |CARRY4     |   155|
+|3     |DSP48E1    |     1|
+|4     |DSP48E1_1  |     1|
+|5     |DSP48E1_2  |     1|
+|6     |LUT1       |   343|
+|7     |LUT2       |   298|
+|8     |LUT3       |   180|
+|9     |LUT4       |   218|
+|10    |LUT5       |   232|
+|11    |LUT6       |   557|
+|12    |MUXF7      |     7|
+|13    |ODDR2      |     1|
+|14    |RAM32M     |     2|
+|15    |RAMB18E1_2 |     1|
+|16    |RAMB18E1_3 |     1|
+|17    |FDCE       |   369|
+|18    |FDPE       |    14|
+|19    |FDRE       |   568|
+|20    |FDSE       |     5|
+|21    |IBUF       |     8|
+|22    |OBUF       |     7|
++------+-----------+------+
+
+Report Instance Areas: 
++------+-------------------------------+-------------------------------------------+------+
+|      |Instance                       |Module                                     |Cells |
++------+-------------------------------+-------------------------------------------+------+
+|1     |top                            |                                           |  2971|
+|2     |  INST_CLK_DIVIDER_BIKE        |CLK_DIVIDER_BIKE                           |    59|
+|3     |  STUDENTS_DESIGN              |TOP_OF_YOUR_BICYCLE                        |  1612|
+|4     |    CALCUL_BLOCK               |calcul_block                               |  1003|
+|5     |      AVERAGE_SPEED            |average_speed                              |    98|
+|6     |        DIVIDE                 |divide_8                                   |    70|
+|7     |      GEN_1S                   |gen_1s                                     |    55|
+|8     |      INST_SPEED               |inst_speed                                 |   192|
+|9     |        DIVIDE_2               |divide                                     |    85|
+|10    |      MAX                      |max                                        |    26|
+|11    |      THRESHOLD                |threshold                                  |    23|
+|12    |      TRIP_DISTANCE            |trip_distance                              |   248|
+|13    |      TRIP_TIME                |trip_time                                  |   348|
+|14    |    CONTROL_BLOCK              |control_block                              |   581|
+|15    |      CLK_1S                   |clk_1s                                     |    52|
+|16    |      CLK_BLINK                |clk_blink                                  |    59|
+|17    |      DISP_LOWER               |disp_out                                   |   243|
+|18    |        bcd_2_ascii_0001       |bcd2ascii_3                                |     4|
+|19    |        bcd_2_ascii_0010       |bcd2ascii_4                                |     4|
+|20    |        bcd_2_ascii_0100       |bcd2ascii_5                                |     4|
+|21    |        bcd_2_ascii_1000       |bcd2ascii_6                                |     4|
+|22    |        inst1_dual2bcd         |dual2bcd_7                                 |   202|
+|23    |      DISP_UPPER               |disp_out_1                                 |   170|
+|24    |        bcd_2_ascii_0001       |bcd2ascii                                  |     4|
+|25    |        bcd_2_ascii_0010       |bcd2ascii_2                                |     4|
+|26    |        inst1_dual2bcd         |dual2bcd                                   |   150|
+|27    |      inst_gen_10ms            |gen_10ms                                   |    13|
+|28    |  KMH_TEST_BIKE                |KMH_TEST                                   |   131|
+|29    |  LCD_CONTROLLER_INST          |LCD_CONTROLLER                             |  1132|
+|30    |    BICYCLE_LCD_MASTER_INST    |BICYCLE_LCD_MASTER                         |   463|
+|31    |      WB_CMD_FIFO              |SMALL_FIFO_ZYBO                            |   108|
+|32    |      WB_CMD_FIFO_TO_WB_MASTER |CMD_FIFO_TO_WB_MASTER                      |    38|
+|33    |    LCD_CMD_DECODER_INST       |LCD_CMD_DECODER                            |   398|
+|34    |    LCD_MEM_CONTROL_INST       |LCD_MEM_CONTROL                            |   105|
+|35    |      ASCII_LUT_BRAM           |BLOCK_RAM_CORE_ASCII_LUT_SMALL_BIG_2K_ZYBO |     1|
+|36    |      DISPLAY_COPY_BRAM        |BLOCK_RAM_CORE_ZYBO                        |     9|
+|37    |    LCD_SIGNAL_IF_INST         |LCD_SIGNAL_IF                              |   149|
+|38    |  PULSE_SHAPE_MODE             |PULSE_SHAPE                                |     6|
+|39    |  PULSE_SHAPE_REED             |PULSE_SHAPE_0                              |     7|
++------+-------------------------------+-------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:01 ; elapsed = 00:01:11 . Memory (MB): peak = 692.848 ; gain = 466.086
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 90 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:44 ; elapsed = 00:00:57 . Memory (MB): peak = 692.848 ; gain = 97.168
+Synthesis Optimization Complete : Time (s): cpu = 00:01:01 ; elapsed = 00:01:11 . Memory (MB): peak = 692.848 ; gain = 466.086
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 171 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 2 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  ODDR2 => ODDR: 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+214 Infos, 93 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:01 ; elapsed = 00:01:09 . Memory (MB): peak = 692.848 ; gain = 456.715
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.110 . Memory (MB): peak = 692.848 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 09 22:36:13 2017...

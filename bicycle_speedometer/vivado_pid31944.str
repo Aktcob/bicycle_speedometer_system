@@ -1,0 +1,2189 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 31944
+
+Current time: 	1/27/17 9:19:29 AM CET
+Time zone: 	Central European Time (Europe/Berlin)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 2
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	D:/vivado/Vivado/2015.2/tps/win64/jre
+
+User name: 	lenovo
+User directory: C:/Users/lenovo/Desktop/b
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	187 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 389 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\lenovo\Desktop\b\b.xpr. Version: Vivado v2015.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 43 MB (+42790kb) [00:00:10]
+// [Engine Memory]: 369 MB (+235710kb) [00:00:10]
+// Tcl Message: open_project C:/Users/lenovo/Desktop/b/b.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 47 MB (+1748kb) [00:00:14]
+// [Engine Memory]: 412 MB (+25019kb) [00:00:14]
+// [GUI Memory]: 51 MB (+1907kb) [00:00:16]
+// [Engine Memory]: 452 MB (+21258kb) [00:00:16]
+// [GUI Memory]: 54 MB (+606kb) [00:00:17]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/lenovo/Desktop/b/b.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2015.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 465 MB. GUI used memory: 33 MB. Current time: 1/27/17 9:19:37 AM CET
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: b; location: C:/Users/lenovo/Desktop/b; part: xc7z010clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 723.906 ; gain = 150.832 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// [GUI Memory]: 60 MB (+3522kb) [00:00:22]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 477 MB (+1830kb) [00:00:22]
+// Elapsed time: 184 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+// Elapsed time: 14 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v)]", 7); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v)]", 8); // A:k (H:JPanel, cl:JFrame)
+// PAPropertyPanels.initPanels (average_speed.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v), AVERAGE_SPEED - average_speed (average_speed.v)]", 12, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v), AVERAGE_SPEED - average_speed (average_speed.v)]", 12, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 70 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v)]", 8, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v)]", 8, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 485 MB. GUI used memory: 35 MB. Current time: 1/27/17 9:24:16 AM CET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "average_speed.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// [GUI Memory]: 65 MB (+1992kb) [00:05:04]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v)]", 8); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v), INST_SPEED - inst_speed (inst_speed.v)]", 13, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v), INST_SPEED - inst_speed (inst_speed.v)]", 13, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 190 seconds
+selectCodeEditor("inst_speed.v", 78, 119); // bj:J (JPanel:JComponent, cl:JFrame)
+// [Engine Memory]: 503 MB (+2644kb) [00:08:31]
+// Elapsed time: 48 seconds
+selectCodeEditor("inst_speed.v", 61, 138); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 507 MB. GUI used memory: 36 MB. Current time: 1/27/17 9:28:36 AM CET
+// Elapsed time: 67 seconds
+selectCodeEditor("inst_speed.v", 94, 65); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 94, 65, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "inst_speed.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 119, 171); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 119, 171, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "inst_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 213, 175); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 213, 175, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "inst_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 203, 353); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 70, 113); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 69, 107); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 73, 101); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 294, 184); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("inst_speed.v", 54, 137); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 112 seconds
+selectCodeEditor("inst_speed.v", 141, 208); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 141, 208, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "inst_speed.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 60, 154); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "inst_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 23 seconds
+typeControlKey((HResource) null, "inst_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "inst_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 69 MB (+508kb) [00:13:21]
+// Elapsed time: 11 seconds
+selectCodeEditor("inst_speed.v", 160, 62); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 146, 71); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 27, 64); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "inst_speed.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 67, 86); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "inst_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 112, 91); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 154, 89); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("inst_speed.v", 147, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 106, 89); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 106, 89, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "inst_speed.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 87, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "inst_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "inst_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 118, 100); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 118, 100, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "inst_speed.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 113, 328); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 113, 328, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "inst_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 214, 333); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 214, 333, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("inst_speed.v", 108, 332); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("inst_speed.v", 317, 329); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jan 27 09:34:20 2017] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// [GUI Memory]: 73 MB (+806kb) [00:16:16]
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 151 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // ap:bI (cl:JFrame)
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Jan 27 09:36:54 2017] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 81 MB (+4001kb) [00:18:30]
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 172 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// cp:P (cl:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.2   **** Build date : Jun 26 2015-16:56:39     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279540088A 
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 540 MB. GUI used memory: 39 MB. Current time: 1/27/17 9:39:56 AM CET
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// [Engine Memory]: 544 MB (+16297kb) [00:20:38]
+dismissDialog("Auto Connect"); // cp:P (cl:JFrame)
+// Elapsed time: 16 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "calcul_block.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "inst_speed.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("inst_speed.v", 308, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("inst_speed.v", 193, 216); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 193, 216, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "inst_speed.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 94, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "inst_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("inst_speed.v", 83, 208); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("inst_speed.v", 120, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 72, 232); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 132, 249); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 132, 249, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "inst_speed.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 83, 229); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "inst_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("inst_speed.v", 291, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 160, 123); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 160, 123, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "inst_speed.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 131, 176); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "inst_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 24 seconds
+selectCodeEditor("inst_speed.v", 225, 203); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Jan 27 09:43:24 2017] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log [Fri Jan 27 09:43:24 2017] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 231 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// [GUI Memory]: 85 MB (+49kb) [00:28:32]
+// Elapsed time: 145 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cl:JFrame)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v), MAX - max (max.v)]", 14, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v), MAX - max (max.v)]", 14, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 21 seconds
+selectCodeEditor("max.v", 60, 236); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "calcul_block.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// [Engine Memory]: 573 MB (+1742kb) [00:31:16]
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_LAUNCH
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jan 27 09:50:34 2017] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log [Fri Jan 27 09:50:34 2017] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 240 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// cp:P (cl:JFrame):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.2   **** Build date : Jun 26 2015-16:56:39     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 826.152 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279540088A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // cp:P (cl:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 578 MB. GUI used memory: 42 MB. Current time: 1/27/17 9:54:49 AM CET
+// Elapsed time: 49 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cl:JFrame)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "average_speed.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "inst_speed.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("inst_speed.v", 194, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v), TRIP_TIME - trip_time (trip_time.v)]", 10, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v), TRIP_TIME - trip_time (trip_time.v)]", 10, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("trip_time.v", 159, 290); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("trip_time.v", 266, 177); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 56 seconds
+selectCodeEditor("trip_time.v", 109, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 32 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "calcul_block.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("calcul_block.v", 115, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), LCD_CONTROLLER_INST - LCD_CONTROLLER - Behavioral1 (LCD_Controller.vhd)]", 6, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v)]", 7, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v)]", 7, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v)]", 7, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+selectCodeEditor("top_of_your_bicycle.v", 50, 139); // bj:J (JPanel:JComponent, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v)]", 7); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CONTROL_BLOCK - control_block (control_block.v)]", 15, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CONTROL_BLOCK - control_block (control_block.v), DISP_UPPER - disp_out (disp_out.v)]", 17, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("control_block.v", 107, 143); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 141, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 160, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_block.v", 6); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// [GUI Memory]: 90 MB (+301kb) [00:39:44]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_of_your_bicycle.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("trip_time.v", 144, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("trip_time.v", 212, 205); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trip_time.v", 6); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_of_your_bicycle.v", 7); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_of_your_bicycle.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("calcul_block.v", 123, 147); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 123, 147, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("calcul_block.v", 177, 146); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "calcul_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 118, 140); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 118, 140, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "calcul_block.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 151, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "calcul_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 134, 147); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 150, 140); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 291, 63); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 37 seconds
+selectCodeEditor("calcul_block.v", 119, 320); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 113, 334); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 113, 334, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "calcul_block.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 121, 88); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "calcul_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("calcul_block.v", 281, 174); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 160, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "calcul_block.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("trip_time.v", 210, 224); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trip_time.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "calcul_block.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trip_time.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "calcul_block.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("trip_time.v", 146, 174); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 111, 172); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trip_time.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "calcul_block.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("trip_time.v", 176, 203); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 176, 203, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 192, 251); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 178, 194); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 178, 194, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 28, 309); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 28, 309, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 120, 311); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 120, 311, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// cp:P (cl:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jan 27 10:02:34 2017] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log [Fri Jan 27 10:02:34 2017] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log 
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 95 MB (+1215kb) [00:43:23]
+// TclEventType: RUN_FAILED
+// HMemoryUtils.trashcanNow. Engine heap size: 602 MB. GUI used memory: 42 MB. Current time: 1/27/17 10:04:14 AM CET
+// [Engine Memory]: 602 MB (+654kb) [00:44:56]
+// Elapsed time: 103 seconds
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cl:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cl:JFrame): FALSE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-448] named port connection 'TIM' does not exist for instance 'TRIP_TIME' of module 'trip_time' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/calcul_block.v:51]. ]", 1, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\lenovo\Desktop\b\b.srcs\sources_1\new\calcul_block.v;-;;-;16;-;line;-;51;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 97, 332); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-285] failed synthesizing module 'trip_distance' [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/trip_distance.v:22]. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Jan 27 10:04:47 2017] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log [Fri Jan 27 10:04:47 2017] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 249 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jan 27 10:09:00 2017] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// cp:P (cl:JFrame):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.2   **** Build date : Jun 26 2015-16:56:39     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 853.117 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279540088A 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // cp:P (cl:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aC:ag)
+// 'x' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // r:a (aS:JPanel, aC:ag)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 63 seconds
+dismissFileChooser();
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aC:ag)
+// 'x' command handler elapsed time: 66 seconds
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cl:JFrame)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// Elapsed time: 138 seconds
+selectCodeEditor("calcul_block.v", 301, 241); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "inst_speed.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 52 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trip_time.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "calcul_block.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("calcul_block.v", 131, 221); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 131, 221, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "calcul_block.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 127, 334); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 127, 334, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "calcul_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trip_time.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("trip_time.v", 112, 278); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("trip_time.v", 148, 121); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 148, 121, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 48, 251); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 48, 251, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 118, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 118, 257, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 118, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 94 seconds
+selectCodeEditor("trip_time.v", 167, 146); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 167, 146, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 57, 279); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 45, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("trip_time.v", 42, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 72, 201); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 72, 201, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 30, 325); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 154 seconds
+selectCodeEditor("trip_time.v", 151, 172); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 151, 172, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 85, 244); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 60, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("trip_time.v", 63, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 63, 218, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 63, 272); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 52, 296); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 161, 338); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Jan 27 10:20:20 2017] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log [Fri Jan 27 10:20:20 2017] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 252 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// cp:P (cl:JFrame):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.2   **** Build date : Jun 26 2015-16:56:39     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 854.934 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279540088A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // cp:P (cl:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 194 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trip_time.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("trip_time.v", 106, 160); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 233, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Jan 27 10:28:37 2017] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log [Fri Jan 27 10:28:37 2017] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 253 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "inst_speed.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "average_speed.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 49 MB. Current time: 1/27/17 10:34:16 AM CET
+// Elapsed time: 127 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trip_time.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("trip_time.v", 186, 85); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("trip_time.v", 63, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 63, 217, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 46, 81); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 180, 145); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 148, 127); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 88, 216); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 152, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 103, 127); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 201, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 80, 85); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("trip_time.v", 67, 203); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 63 seconds
+selectCodeEditor("trip_time.v", 166, 43); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 100, 65); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 100, 65, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 42, 122); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("trip_time.v", 38, 85); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 38, 85, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("trip_time.v", 97, 124); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 84, 141); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 84, 141, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 157, 121); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("trip_time.v", 99, 143); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 79, 189); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 80, 206); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 87 seconds
+selectCodeEditor("trip_time.v", 91, 68); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 144, 73); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 33, 98); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 15, 85, false, true, false, false, false); // bj:J (JPanel:JComponent, cl:JFrame) - Control Key
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 102, 83); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 77, 65); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 77, 65, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 41, 123); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 41, 123, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 120, 119); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 114, 119); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 114, 119, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 76, 142); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 76, 142, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 93, 192); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 93, 192, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 96, 229); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 90, 213); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 82 seconds
+selectCodeEditor("trip_time.v", 115, 87); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 115, 87, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("trip_time.v", 110, 199); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 101, 215); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("trip_time.v", 129, 81); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 156, 131); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 166, 119); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 121, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 121, 258, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 50, 141); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("trip_time.v", 202, 141); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 62, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 341, 192); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 79, 241); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 46 seconds
+selectCodeEditor("trip_time.v", 84, 26); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 84, 26, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 84, 135); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("trip_time.v", 73, 142); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 73, 142, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 65, 160); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("trip_time.v", 202, 109); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 202, 109, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 178, 215); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("trip_time.v", 149, 222); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 280, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 96, 165); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 96, 165, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 71, 195); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 77 seconds
+selectCodeEditor("trip_time.v", 173, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 144, 203); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("trip_time.v", 103, 80); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 101, 114); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("trip_time.v", 89, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 118, 242); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 222, 135); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 76, 144); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 76, 144, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 129, 165); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("trip_time.v", 89, 48); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 89, 48, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 101, 176); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("trip_time.v", 305, 166); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 108, 199); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 228, 186); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("trip_time.v", 228, 168); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 228, 168, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 169, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("trip_time.v", 150, 179); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 150, 179, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 169, 221); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 199, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 162, 195); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 162, 195, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 112, 181); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 136, 151); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jan 27 10:50:39 2017] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log [Fri Jan 27 10:50:40 2017] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 251 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 180 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "inst_speed.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("inst_speed.v", 189, 183); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 155, 184); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("inst_speed.v", 258, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Jan 27 10:58:35 2017] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log [Fri Jan 27 10:58:35 2017] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 276 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 57 seconds
+selectCodeEditor("inst_speed.v", 152, 180); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 615 MB. GUI used memory: 48 MB. Current time: 1/27/17 11:04:18 AM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 39 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cl:JFrame)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// Tcl Message: ****** Webtalk v2015.2 (64-bit)   **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015   **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015     ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.  source C:/Users/lenovo/Desktop/b/b.hw/webtalk/labtool_webtalk.tcl -notrace INFO: [Common 17-186] 'C:/Users/lenovo/Desktop/b/b.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Fri Jan 27 11:05:02 2017. For additional details about this file, please refer to the WebTalk help file at D:/vivado/Vivado/2015.2/doc/webtalk_introduction.html. INFO: [Common 17-206] Exiting Webtalk at Fri Jan 27 11:05:02 2017... 
+// Tcl Message: close_hw: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 860.609 ; gain = 0.000 
+// Elapsed time: 373 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v)]", 1, true, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cl:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// HMemoryUtils.trashcanNow. Engine heap size: 627 MB. GUI used memory: 44 MB. Current time: 1/27/17 11:11:13 AM CET
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // w:JideButton (CommandBar:DockableBar, b:g)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // ab:JMenuItem (ai:JPopupMenu, b:g)
+// I:ag (b:g): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "threshold"); // ao:JTextField (JPanel:JComponent, I:ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:ag)
+dismissDialog("Create Source File"); // I:ag (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 12 seconds
+dismissDialog("Add Sources"); // b:g (cl:JFrame)
+// Tcl Message: close [ open C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/threshold.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/threshold.v 
+// L:ag (cl:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, L:ag)
+// TclEventType: DG_GRAPH_STALE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Define Module"); // L:ag (cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 21, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 21, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, threshold (threshold.v)]", 20, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, threshold (threshold.v)]", 20, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "threshold.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v)]", 8, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v)]", 8, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("calcul_block.v", 37, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 20, 278); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "calcul_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("calcul_block.v", 169, 223); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 12 seconds
+selectCodeEditor("calcul_block.v", 147, 46); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 100, 62); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 100, 62, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "calcul_block.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v)]", 7, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v)]", 7, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("top_of_your_bicycle.v", 131, 148); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "top_of_your_bicycle.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "top_of_your_bicycle.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// cp:P (cl:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jan 27 11:13:11 2017] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log [Fri Jan 27 11:13:11 2017] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 410 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// cp:P (cl:JFrame):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.2   **** Build date : Jun 26 2015-16:56:39     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 869.359 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279540088A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // cp:P (cl:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 46 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 61 seconds
+selectCodeEditor("average_speed.v", 247, 134); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("average_speed.v", 298, 92); // bj:J (JPanel:JComponent, cl:JFrame)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cl:JFrame)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// Elapsed time: 46 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v)]", 7, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v)]", 7, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v)]", 8, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v), AVERAGE_SPEED - average_speed (average_speed.v)]", 13, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("calcul_block.v", 185, 209); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 124 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v), TRIP_TIME - trip_time (trip_time.v)]", 11, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v), TRIP_TIME - trip_time (trip_time.v)]", 11, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("trip_time.v", 187, 163); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 82, 180); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 82, 180, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("trip_time.v", 50, 336); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 82 seconds
+selectCodeEditor("trip_time.v", 54, 357); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 167, 106); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_of_your_bicycle.v", 6); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v)]", 8, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v)]", 8, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+selectCodeEditor("calcul_block.v", 179, 240); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "calcul_block.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("trip_time.v", 88, 331); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 138, 100); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 138, 100, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 59, 328); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 171, 11); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 171, 11, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 53, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("trip_time.v", 71, 233); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 159, 266); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 162, 249); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 91, 149); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 91, 149, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 39, 331); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 75, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 75, 161, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 65, 359); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 84, 179); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 84, 179, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 54, 376); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 59, 180); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 59, 180, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 44, 375); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_time.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 91, 268); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 262, 232); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trip_time.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("calcul_block.v", 239, 157); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v)]", 8); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v), TRIP_DISTANCE - trip_distance (trip_distance.v)]", 12, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CALCUL_BLOCK - calcul_block (calcul_block.v), TRIP_DISTANCE - trip_distance (trip_distance.v)]", 12, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("trip_distance.v", 107, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_distance.v", 238, 164); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_distance.v", 95, 228); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_distance.v", 94, 221); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("trip_distance.v", 650, 244); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_distance.v", 146, 81); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_distance.v", 146, 81, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_distance.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_distance.v", 95, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_distance.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_distance.v", 154, 106); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_distance.v", 154, 106, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_distance.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_distance.v", 77, 279); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_distance.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_distance.v", 100, 160); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_distance.v", 100, 160, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_distance.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_distance.v", 111, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "trip_distance.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_distance.v", 86, 309); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_distance.v", 137, 301); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_distance.v", 77, 316); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_distance.v", 260, 311); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trip_distance.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("calcul_block.v", 177, 127); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 44 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "calcul_block.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("average_speed.v", 97, 104); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("average_speed.v", 87, 263); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("average_speed.v", 30, 313); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("average_speed.v", 30, 313, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "average_speed.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("average_speed.v", 135, 278); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "average_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+selectCodeEditor("calcul_block.v", 205, 139); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "calcul_block.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("inst_speed.v", 96, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 78, 272); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("inst_speed.v", 135, 140); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 135, 140, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "inst_speed.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 95, 308); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "inst_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 78, 61); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 78, 61, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "inst_speed.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 87, 216); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "inst_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 100, 81); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 100, 81, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "inst_speed.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 109, 230); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "inst_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 62, 107); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 62, 107, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "inst_speed.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("inst_speed.v", 63, 265); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "inst_speed.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "max.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("calcul_block.v", 171, 266); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "calcul_block.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("max.v", 80, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("max.v", 129, 204); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("max.v", 129, 204, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "max.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("max.v", 148, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "max.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+selectCodeEditor("trip_time.v", 115, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("trip_time.v", 115, 182, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "trip_time.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trip_time.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("calcul_block.v", 183, 243); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "calcul_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 167, 106); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "calcul_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 207, 100); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "calcul_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("calcul_block.v", 153, 145); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "calcul_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Jan 27 11:34:38 2017] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log [Fri Jan 27 11:34:40 2017] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Elapsed time: 50 seconds
+selectCodeEditor("calcul_block.v", 546, 208); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2576] procedural assignment to a non-register DAY is not permitted [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/trip_distance.v:35]. ]", 1, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\lenovo\Desktop\b\b.srcs\sources_1\new\trip_distance.v;-;;-;16;-;line;-;35;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// [GUI Memory]: 101 MB (+973kb) [02:16:16]
+selectCodeEditor("trip_distance.v", 164, 215); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Jan 27 11:35:47 2017] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log [Fri Jan 27 11:35:47 2017] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_FAILED
+// Elapsed time: 36 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] reset is not declared [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/max.v:31]. ]", 1, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\lenovo\Desktop\b\b.srcs\sources_1\new\max.v;-;;-;16;-;line;-;31;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("max.v", 122, 140); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 108 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] reset is not declared [C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/max.v:31]. ]", 1, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\lenovo\Desktop\b\b.srcs\sources_1\new\max.v;-;;-;16;-;line;-;31;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "max.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "calcul_block.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("max.v", 123, 148); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Jan 27 11:38:43 2017] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log [Fri Jan 27 11:38:43 2017] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 128 seconds
+selectCodeEditor("max.v", 643, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 627 MB. GUI used memory: 48 MB. Current time: 1/27/17 11:41:14 AM CET
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 98 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// cp:P (cl:JFrame):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.2   **** Build date : Jun 26 2015-16:56:39     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 869.359 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279540088A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // cp:P (cl:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 45 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cl:JFrame)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// Elapsed time: 50 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CONTROL_BLOCK - control_block (control_block.v)]", 16); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CONTROL_BLOCK - control_block (control_block.v)]", 16, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CONTROL_BLOCK - control_block (control_block.v)]", 16, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 15 seconds
+selectCodeEditor("control_block.v", 45, 192); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 219 seconds
+selectCodeEditor("control_block.v", 85, 184); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 85, 184, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "control_block.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 30, 283); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 36, 303); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("control_block.v", 91, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 91, 197, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "control_block.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 41, 313); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 633 MB (+1121kb) [02:29:31]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Jan 27 11:48:54 2017] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log [Fri Jan 27 11:48:54 2017] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 234 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// cp:P (cl:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.2   **** Build date : Jun 26 2015-16:56:39     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 884.035 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279540088A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // cp:P (cl:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 75 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cl:JFrame)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+selectCodeEditor("control_block.v", 18, 127); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("control_block.v", 158, 65); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 158, 65, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 51 seconds
+typeControlKey((HResource) null, "control_block.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 44, 250); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 87, 248); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 222, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 103, 141); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("control_block.v", 40, 124); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("control_block.v", 341, 138); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 196, 207); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("control_block.v", 128, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 67, 270); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 64, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 119, 221); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 21, 222); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 21 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("control_block.v", 86, 192); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("control_block.v", 178, 145); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 154, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 49, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 11, 259); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 144, 316); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 127, 233); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 72, 179); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 157, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 83, 224); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 94, 183); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 4, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("control_block.v", 144, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 69 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cl:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // w:JideButton (CommandBar:DockableBar, b:g)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // ab:JMenuItem (ai:JPopupMenu, b:g)
+// I:ag (b:g): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "clk_blink"); // ao:JTextField (JPanel:JComponent, I:ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:ag)
+dismissDialog("Create Source File"); // I:ag (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 10 seconds
+dismissDialog("Add Sources"); // b:g (cl:JFrame)
+// Tcl Message: close [ open C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/clk_blink.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/lenovo/Desktop/b/b.srcs/sources_1/new/clk_blink.v 
+// L:ag (cl:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, L:ag)
+// TclEventType: DG_GRAPH_STALE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Define Module"); // L:ag (cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CONTROL_BLOCK - control_block (control_block.v)]", 16); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CONTROL_BLOCK - control_block (control_block.v), CLK_1S - clk_1s (clk_1s.v)]", 20, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, global_toplevel (global_toplevel.v), STUDENTS_DESIGN - TOP_OF_YOUR_BICYCLE (top_of_your_bicycle.v), CONTROL_BLOCK - control_block (control_block.v), CLK_1S - clk_1s (clk_1s.v)]", 20, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("clk_1s.v", 292, 227); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_1s.v", 60, 324); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "clk_1s.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_blink (clk_blink.v)]", 21, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_blink (clk_blink.v)]", 21, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("clk_blink.v", 49, 333); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "clk_blink.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 53, 365); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 228, 240); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 112, 156); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 112, 156, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 67 seconds
+selectCodeEditor("clk_blink.v", 117, 261); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 117, 261, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 33 seconds
+selectCodeEditor("clk_blink.v", 106, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 106, 255, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 26 seconds
+selectCodeEditor("clk_blink.v", 104, 277); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 104, 277, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("clk_blink.v", 202, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 106, 263); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 120, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 113, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("clk_blink.v", 126, 118); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 126, 118, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "clk_blink.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 63, 268); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 63, 268, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "clk_blink.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 131, 302); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 81, 287); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("clk_blink.v", 67, 246); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 66, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 66, 252, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "clk_blink.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 69, 312); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "clk_blink.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 97 seconds
+selectCodeEditor("clk_blink.v", 60, 268); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 60, 268, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "clk_blink.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 80, 333); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "clk_blink.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("clk_blink.v", 162, 309); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 171, 312); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 171, 312, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "clk_blink.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 76, 370); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 73, 368); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "clk_blink.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 82, 371); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 82, 371, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "clk_blink.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("clk_blink.v", 170, 365); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "clk_blink.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectCodeEditor("clk_blink.v", 50, 95); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "clk_blink.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_block.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("control_block.v", 70, 334); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 7, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 55, 293); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("control_block.v", 115, 312); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 112, 333); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 71, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 71, 330, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "control_block.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 99, 332); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 91, 245); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("control_block.v", 129, 192); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 129, 192, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("control_block.v", 129, 208); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 131, 196); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 133, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 133, 246); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 131, 311); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 133, 296); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 135, 312); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("control_block.v", 135, 332); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 144, 334); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("control_block.v", 134, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "control_block.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Jan 27 12:08:36 2017] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/synth_1/runme.log [Fri Jan 27 12:08:36 2017] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/b/b.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 644 MB. GUI used memory: 51 MB. Current time: 1/27/17 12:11:14 PM CET
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 231 seconds
+selectCodeEditor("control_block.v", 690, 243); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// cp:P (cl:JFrame):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.2   **** Build date : Jun 26 2015-16:56:39     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 886.102 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279540088A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // cp:P (cl:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/b/b.runs/impl_1/global_toplevel.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
